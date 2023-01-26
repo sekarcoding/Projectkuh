@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardDataPelanggan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="30dp"
+            android:onClick="back"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Data Pelanggan"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:onClick="lihat1"
+                app:srcCompat="@drawable/shapeinput" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="lihat1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                app:srcCompat="@drawable/admin" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="25dp"
+                android:onClick="lihat1"
+                android:text="User A"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress2"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="55dp"
+                android:onClick="lihat1"
+                android:ems="10"
+                android:text="user_a@gmail.com"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/editTextPhone2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="+628-1254-0943-43"
+                android:background="#EFEFEF"
+                android:onClick="lihat1"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="105dp"
+                android:inputType="phone" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="lihat1"
+                android:text="Lihat"
+                android:textColor="@color/black"
+                android:layout_marginLeft="300dp"
+                android:backgroundTint="#E8E3D6"/>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="170dp"
+                app:srcCompat="@drawable/shapeinput" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="190dp"
+                android:layout_marginLeft="30dp"
+                app:srcCompat="@drawable/admin" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="195dp"
+                android:text="User B"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress1"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="225dp"
+                android:ems="10"
+                android:text="user_b@gmail.com"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/editTextPhone1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="+628-1254-0943-43"
+                android:background="#EFEFEF"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="275dp"
+                android:inputType="phone" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat"
+                android:textColor="@color/black"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="170dp"
+                android:backgroundTint="#E8E3D6"/>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="340dp"
+                app:srcCompat="@drawable/shapeinput" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="360dp"
+                android:layout_marginLeft="30dp"
+                app:srcCompat="@drawable/admin" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="365dp"
+                android:text="User C"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="395dp"
+                android:ems="10"
+                android:text="user_b@gmail.com"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="+628-1254-0943-43"
+                android:background="#EFEFEF"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="445dp"
+                android:inputType="phone" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat"
+                android:textColor="@color/black"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="340dp"
+                android:backgroundTint="#E8E3D6"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="510dp"
+                app:srcCompat="@drawable/shapeinput" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="530dp"
+                android:layout_marginLeft="30dp"
+                app:srcCompat="@drawable/admin" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="535dp"
+                android:text="User D"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress3"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="565dp"
+                android:ems="10"
+                android:text="user_b@gmail.com"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/editTextPhone3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="+628-1254-0943-43"
+                android:background="#EFEFEF"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="615dp"
+                android:inputType="phone" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat"
+                android:textColor="@color/black"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="510dp"
+                android:backgroundTint="#E8E3D6"/>
+        </FrameLayout>
+
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

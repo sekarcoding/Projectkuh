@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditPilihanKue">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:onClick="back"
+        android:background="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Edit Pilihan Kue"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="98dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="275dp"
+            android:textSize="14dp"
+            android:onClick="tambah"
+            android:backgroundTint="#E8E3D6"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:text="Tambah" />
+
+    </FrameLayout>
+        
+        <FrameLayout
+            android:layout_width="380dp"
+            android:layout_height="135dp"
+            android:layout_marginLeft="17dp">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                app:srcCompat="@drawable/shapeinput" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#EFEFEF"
+                app:srcCompat="@drawable/bl" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="Bolu Lemon" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="130dp"
+                android:text="Rp.40.000.00" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="80dp"
+                android:text="Bolu panggang dengan lembut dengan ekstrak lemon yang menambah kesan fresh ketika di makan" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#E8E3D6"
+                android:textColor="@color/black"
+                android:text="Edit" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="380dp"
+            android:layout_height="145dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                app:srcCompat="@drawable/shapeinput" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#EFEFEF"
+                app:srcCompat="@drawable/ctcc" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="CheeseTiramisu Coffe Cake" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="130dp"
+                android:text="Rp.85.000.00" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="90dp"
+                android:text="Cake tiramisu yang lembut di padukan dengan keju yang cramy menciptakan rasa yang spektakuler" />
+
+            <Button
+                android:id="@+id/button2"
+                android:onClick="edit"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="45dp"
+                android:backgroundTint="#E8E3D6"
+                android:textColor="@color/black"
+                android:text="Edit" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="380dp"
+            android:layout_height="145dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                app:srcCompat="@drawable/shapeinput" />
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#EFEFEF"
+                app:srcCompat="@drawable/bpss" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="Bolu Pandan Seres" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="130dp"
+                android:text="Rp.40.000.00" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="90dp"
+                android:text="Bolu pandan dengan toping atas seres dan juga keju" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="45dp"
+                android:backgroundTint="#E8E3D6"
+                android:textColor="@color/black"
+                android:text="Edit" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="380dp"
+            android:layout_height="145dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                app:srcCompat="@drawable/shapeinput" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#EFEFEF"
+                app:srcCompat="@drawable/bps" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="Brownies Panggang Sekat" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="130dp"
+                android:text="Rp.95.000.00" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="90dp"
+                android:text="Brownies panggang sekat  dengan toping atas  beraneka ragam " />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="45dp"
+                android:backgroundTint="#E8E3D6"
+                android:textColor="@color/black"
+                android:text="Edit" />
+
+        </FrameLayout>
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
